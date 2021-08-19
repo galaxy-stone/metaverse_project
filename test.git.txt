@@ -1,0 +1,9 @@
+pragma solidity ^0.8.0;
+
+contract cat{
+
+    string name;
+    function eat() public returns(string){
+        return "cat eat fish";
+
+    }
